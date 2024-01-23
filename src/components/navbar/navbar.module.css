@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    background-color: rgb(67, 239, 239);
+}
+
+.innercontainer {
+    display: flex;
+    width: 91%;
+    justify-content: space-between;
+}
+
+.leftcontainer {
+    display: flex;
+    column-gap: 10px;
+}
+
+.logo {
+    font-size: x-large;
+    font-weight: 800;
+}
+
+.menu {
+    display: flex;
+    column-gap: 25px;
+    font-size: large;
+    font-weight: 500;
+}
+
+.image {
+    height: 50px;
+    width:  50px;
+}
+.photo {
+    width: fit-content;
+    height: fit-content;
+}
