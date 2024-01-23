@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from './portfolio.module.css';
 
-const page = () => {
+const Page = () => {
   return (
     <div>portfolio</div>
   )
 }
 
-export default page
+export default Page

@@ -1,9 +1,9 @@
-import React from 'react'
+import styles from './about.module.css';
 
-const page = () => {
+const Page = () => {
   return (
     <div>about</div>
   )
 }
 
-export default page
+export default Page

@@ -5,7 +5,7 @@ import "./navbar.module.css"
 import styles from "./navbar.module.css"
 import { useRouter } from 'next/navigation'
 
-const page = () => {
+const Page = () => {
   const router = useRouter()
   return (
     <div className={styles.container}>
@@ -28,4 +28,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

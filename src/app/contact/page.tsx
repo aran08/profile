@@ -1,6 +1,6 @@
 import styles from './contact.module.css';
 
-const page = () => {
+const Page = () => {
   return (
     <div className={styles.container}>
       contact
@@ -8,4 +8,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
