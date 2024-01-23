@@ -1,4 +1,99 @@
-.container {
-    background-color: aquamarine;
-    height: 500px;
+.container1 {
+    /* background-color: aquamarine; */
+    /* height: 100%; */
+    display: flex;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.block1 {
+    width: 50%;
+    border: 2px solid #000;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.intro {
+    font-size: x-large;
+    font-weight: 500;
+    padding : 0px 0px 40px 0px;
+}
+
+.name {
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.tech {
+    font-size: xx-large;
+    font-weight: 400;
+    padding : 0px 0px 40px 0px;
+}
+
+.block2 {
+    width: 50%;
+    display: flex;
+    border: 2px solid #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageblock {
+    border: 2px solid #000;
+    height: 100%;
+    width: 83%;
+    border-radius: 220px;
+}
+
+.contact {
+    display: flex;
+    column-gap: 10px;
+    font-weight: 600;
+    font-size: large;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  border: 2px solid #000;
+}
+
+.innercontainer1 {
+    width: 73%;
+    border: 2px solid #000;
+    display: flex;
+}
+
+.innercontainer {
+    width: 73%;
+    border: 2px solid #000;
+}
+
+.about {
+    font-weight: 400;
+    color: rgb(69, 69, 183);
+    padding-bottom: 25px;
+}
+
+.desc {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.block2 {
+    display: flex;
+    width: 100%;
+}
+
+.design {
+   color: #009BDF;
+   font-size: 35px;
+   font-weight: 500;
+   width: 50%;
+}
+
+.rightblock {
+    width: 50%;
 }
