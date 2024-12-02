@@ -41,7 +41,7 @@ const Page = ({ params }) => {
                                 <div className='px-4 w-full flex flex-col gap-1'>
                                     <h2 className='font-medium text-[18px]'>About Project</h2>
                                     {Data?.aboutData?.map((item, index) => (
-                                        <div className='flex gap-2 mb-2'>
+                                        <div key={index} className='flex gap-2 mb-2'>
                                             <ArrowForwardIcon />
                                             <h6 className='text-[14.33px] font-medium text-[#4D4D4D]'>{item?.about}</h6>
                                         </div>
