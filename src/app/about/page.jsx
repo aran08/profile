@@ -49,7 +49,7 @@ const Page = () => {
       </div>
 
       <div className='w-full mt-5 pb-10'>
-        <h4 className='text-2xl xl:text-4xl'>I'm</h4>
+        <h4 className='text-2xl xl:text-4xl'>I&apos;m</h4>
         <h6 className='text-3xl xl:text-5xl pb-2'>Aran Choudhary</h6>
         <p className='text-[20px] max-sm:text-[16px]'>{AboutData?.para1}</p>
         <p className='text-[20px] max-sm:text-[16px] pt-3'>{AboutData?.para2}</p>
